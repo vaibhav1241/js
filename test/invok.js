@@ -4,6 +4,6 @@
     console.log(`DB connected`);
 })();
 
-(()=>{
-    console.log(`server connected to port ${3000}`);
-})();
+((name)=>{
+    console.log(`server connected to port ${name}`);
+})("vaibhav");
